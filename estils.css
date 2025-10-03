@@ -1,18 +1,29 @@
+p {
+  color: green;
+}
+
 #titol {
-  font-size: 30px;
-  color: rgb(46, 176, 216);
+  font-size: 36px;
+  text-decoration: underline;
 }
 
 .text-important {
+  color: red;
   font-weight: bold;
 }
 
-.gran {
-  font-size: 20px;
+.vermell {
+  color: red;
 }
+
+.gran {
+  font-size: 24px;
+}
+
 .negreta {
   font-weight: bold;
 }
+
 .subratllat {
   text-decoration: underline;
 }
@@ -35,6 +46,16 @@ a {
 }
 
 a:hover {
-  color: darkgray; 
+  color: gold;
   cursor: pointer; 
+}
+
+p::before {
+  content: "👉 ";
+  color: blue;
+}
+
+p::after {
+  content: " ✔";
+  color: green;
 }
